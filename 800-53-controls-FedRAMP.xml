@@ -3892,11 +3892,11 @@ To satisfy annual assessment requirements, organizations can use assessment resu
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>CM-1b.1.</number>
-                    <description>Configuration management policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Configuration management policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>CM-1b.2.</number>
-                    <description>Configuration management procedures [Assignment: organization-defined frequency].</description>
+                    <description>Configuration management procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -3944,11 +3944,11 @@ To satisfy annual assessment requirements, organizations can use assessment resu
                     <description>The organization reviews and updates the baseline configuration of the information system:</description>
                     <statement>
                         <number>CM-2 (1)(a)</number>
-                        <description>[Assignment: organization-defined frequency];</description>
+                        <description>[FedRAMP Assignment: at least annually or when a significant change occurs];</description>
                     </statement>
                     <statement>
                         <number>CM-2 (1)(b)</number>
-                        <description>When required due to [Assignment organization-defined circumstances]; and</description>
+                        <description>When required due to [FedRAMP Assignment: to include when directed by the JAB]; and</description>
                     </statement>
                     <statement>
                         <number>CM-2 (1)(c)</number>
@@ -4079,7 +4079,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
             </statement>
             <statement>
                 <number>CM-3g.</number>
-                <description>Coordinates and provides oversight for configuration change control activities through [Assignment: organization-defined configuration change control element (e.g., committee, board)] that convenes [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined configuration change conditions]].</description>
+                <description>Coordinates and provides oversight for configuration change control activities through [FedRAMP Assignment: see additional FedRAMP requirements and guidance] that convenes [Selection (one or more): [Assignment: organization-defined frequency]; [Assignment: organization-defined configuration change conditions]].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -4325,7 +4325,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
                     </statement>
                     <statement>
                         <number>CM-5 (5)(b)</number>
-                        <description>Reviews and reevaluates privileges [Assignment: organization-defined frequency].</description>
+                        <description>Reviews and reevaluates privileges [FedRAMP Assignment: at least quarterly].</description>
                     </statement>
                 </statement>
                 <supplemental-guidance>
@@ -4368,7 +4368,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
             <description>The organization:</description>
             <statement>
                 <number>CM-6a.</number>
-                <description>Establishes and documents configuration settings for information technology products employed within the information system using [Assignment: organization-defined security configuration checklists] that reflect the most restrictive mode consistent with operational requirements;</description>
+                <description>Establishes and documents configuration settings for information technology products employed within the information system using [FedRAMP Assignment: see CM-6(a) Additional FedRAMP Requirements and Guidance] that reflect the most restrictive mode consistent with operational requirements;</description>
             </statement>
             <statement>
                 <number>CM-6b.</number>
@@ -4482,7 +4482,7 @@ Common secure configurations (also referred to as security configuration checkli
             </statement>
             <statement>
                 <number>CM-7b.</number>
-                <description>Prohibits or restricts the use of the following functions, ports, protocols, and/or services: [Assignment: organization-defined prohibited or restricted functions, ports, protocols, and/or services].</description>
+                <description>Prohibits or restricts the use of the following functions, ports, protocols, and/or services: [FedRAMP Assignment: United States Government Configuration Baseline (USGCB)].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -4503,7 +4503,7 @@ Common secure configurations (also referred to as security configuration checkli
                     <description>The organization:</description>
                     <statement>
                         <number>CM-7 (1)(a)</number>
-                        <description>Reviews the information system [Assignment: organization-defined frequency] to identify unnecessary and/or nonsecure functions, ports, protocols, and services; and</description>
+                        <description>Reviews the information system [FedRAMP Assignment: at least Monthly] to identify unnecessary and/or nonsecure functions, ports, protocols, and services; and</description>
                     </statement>
                     <statement>
                         <number>CM-7 (1)(b)</number>
@@ -4582,7 +4582,7 @@ Common secure configurations (also referred to as security configuration checkli
                     </statement>
                     <statement>
                         <number>CM-7 (5)(c)</number>
-                        <description>Reviews and updates the list of authorized software programs [Assignment: organization-defined frequency].</description>
+                        <description>Reviews and updates the list of authorized software programs [FedRAMP Assignment: at least annually or when there is a change].</description>
                     </statement>
                 </statement>
                 <supplemental-guidance>
@@ -4635,7 +4635,7 @@ Common secure configurations (also referred to as security configuration checkli
             </statement>
             <statement>
                 <number>CM-8b.</number>
-                <description>Reviews and updates the information system component inventory [Assignment: organization-defined frequency].</description>
+                <description>Reviews and updates the information system component inventory [FedRAMP Assignment: at least monthly].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -4675,7 +4675,7 @@ Common secure configurations (also referred to as security configuration checkli
                     <description>The organization:</description>
                     <statement>
                         <number>CM-8 (3)(a)</number>
-                        <description>Employs automated mechanisms [Assignment: organization-defined frequency] to detect the presence of unauthorized hardware, software, and firmware components within the information system; and</description>
+                        <description>Employs automated mechanisms [FedRAMP Assignment: Continuously, using automated mechanisms with a maximum five-minute delay in detection] to detect the presence of unauthorized hardware, software, and firmware components within the information system; and</description>
                     </statement>
                     <statement>
                         <number>CM-8 (3)(b)</number>
@@ -4890,7 +4890,7 @@ Common secure configurations (also referred to as security configuration checkli
             </statement>
             <statement>
                 <number>CM-11c.</number>
-                <description>Monitors policy compliance at [Assignment: organization-defined frequency].</description>
+                <description>Monitors policy compliance at [FedRAMP Assignment: Continuously (via CM-7 (5))].</description>
             </statement>
         </statement>
         <supplemental-guidance>
