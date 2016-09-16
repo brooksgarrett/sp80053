@@ -2079,11 +2079,11 @@ This control does not apply to the use of external information systems to access
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>AT-1b.1.</number>
-                    <description>Security awareness and training policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Security awareness and training policy [FedRAMP Assignment: at least every 3 years]; and</description>
                 </statement>
                 <statement>
                     <number>AT-1b.2.</number>
-                    <description>Security awareness and training procedures [Assignment: organization-defined frequency].</description>
+                    <description>Security awareness and training procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -2126,7 +2126,7 @@ This control does not apply to the use of external information systems to access
             </statement>
             <statement>
                 <number>AT-2c.</number>
-                <description>[Assignment: organization-defined frequency] thereafter.</description>
+                <description>[FedRAMP Assignment: at least annually] thereafter.</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -2199,7 +2199,7 @@ This control does not apply to the use of external information systems to access
             </statement>
             <statement>
                 <number>AT-3c.</number>
-                <description>[Assignment: organization-defined frequency] thereafter.</description>
+                <description>[FedRAMP Assignment: at least annually] thereafter.</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -2290,7 +2290,7 @@ This control does not apply to the use of external information systems to access
             </statement>
             <statement>
                 <number>AT-4b.</number>
-                <description>Retains individual training records for [Assignment: organization-defined time period].</description>
+                <description>Retains individual training records for [FedRAMP Assignment: at least one year].</description>
             </statement>
         </statement>
         <supplemental-guidance>
