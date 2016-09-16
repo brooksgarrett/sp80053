@@ -3326,11 +3326,11 @@ This control does not apply to the use of external information systems to access
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>CA-1b.1.</number>
-                    <description>Security assessment and authorization policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Security assessment and authorization policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>CA-1b.2.</number>
-                    <description>Security assessment and authorization procedures [Assignment: organization-defined frequency].</description>
+                    <description>Security assessment and authorization procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -3381,7 +3381,7 @@ This control does not apply to the use of external information systems to access
             </statement>
             <statement>
                 <number>CA-2b.</number>
-                <description>Assesses the security controls in the information system and its environment of operation [Assignment: organization-defined frequency] to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting established security requirements;</description>
+                <description>Assesses the security controls in the information system and its environment of operation [FedRAMP Assignment: at least annually] to determine the extent to which the controls are implemented correctly, operating as intended, and producing the desired outcome with respect to meeting established security requirements;</description>
             </statement>
             <statement>
                 <number>CA-2c.</number>
@@ -3389,7 +3389,7 @@ This control does not apply to the use of external information systems to access
             </statement>
             <statement>
                 <number>CA-2d.</number>
-                <description>Provides the results of the security control assessment to [Assignment: organization-defined individuals or roles].</description>
+                <description>Provides the results of the security control assessment to [FedRAMP Assignment: individuals or roles to include the FedRAMP PMO].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -3422,7 +3422,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
                 <title>SPECIALIZED ASSESSMENTS</title>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The organization includes as part of security control assessments, [Assignment: organization-defined frequency], [Selection: announced; unannounced], [Selection (one or more): in-depth monitoring; vulnerability scanning; malicious user testing; insider threat assessment; performance/load testing; [Assignment: organization-defined other forms of security assessment]].</description>
+                    <description>The organization includes as part of security control assessments, [FedRAMP Assignment: at least annually], [Selection: announced; unannounced], [Selection (one or more): in-depth monitoring; vulnerability scanning; malicious user testing; insider threat assessment; performance/load testing; [Assignment: organization-defined other forms of security assessment]].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Organizations can employ information system monitoring, insider threat assessments, malicious user testing, and other forms of testing (e.g., verification and validation) to improve readiness by exercising organizational capabilities and indicating current performance levels as a means of focusing actions to improve security. Organizations conduct assessment activities in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, and standards. Authorizing officials approve the assessment methods in coordination with the organizational risk executive function. Organizations can incorporate vulnerabilities uncovered during assessments into vulnerability remediation processes.</description>
@@ -3434,7 +3434,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
                 <number>CA-2 (3)</number>
                 <title>EXTERNAL ORGANIZATIONS</title>
                 <statement>
-                    <description>The organization accepts the results of an assessment of [Assignment: organization-defined information system] performed by [Assignment: organization-defined external organization] when the assessment meets [Assignment: organization-defined requirements].</description>
+                    <description>The organization accepts the results of an assessment of [Assignment: organization-defined information system] performed by [FedRAMP Assignment: any FedRAMP Accredited 3PAO] when the assessment meets [FedRAMP Assignment: the conditions of the JAB/AO in the FedRAMP Repository].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Organizations may often rely on assessments of specific information systems by other (external) organizations. Utilizing such existing assessments (i.e., reusing existing assessment evidence) can significantly decrease the time and resources required for organizational assessments by limiting the amount of independent assessment activities that organizations need to perform. The factors that organizations may consider in determining whether to accept assessment results from external organizations can vary. Determinations for accepting assessment results can be based on, for example, past assessment experiences one organization has had with another organization, the reputation that organizations have with regard to assessments, the level of detail of supporting assessment documentation provided, or mandates imposed upon organizations by federal legislation, policies, or directives.</description>
@@ -3485,7 +3485,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
             </statement>
             <statement>
                 <number>CA-3c.</number>
-                <description>Reviews and updates Interconnection Security Agreements [Assignment: organization-defined frequency].</description>
+                <description>Reviews and updates Interconnection Security Agreements [FedRAMP Assignment: three (3) years / annually and on input from FedRAMP].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -3527,7 +3527,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
                 <number>CA-3 (3)</number>
                 <title>UNCLASSIFIED NON-NATIONAL SECURITY SYSTEM CONNECTIONS</title>
                 <statement>
-                    <description>The organization prohibits the direct connection of an [Assignment: organization-defined unclassified, non-national security system] to an external network without the use of [Assignment; organization-defined boundary protection device].</description>
+                    <description>The organization prohibits the direct connection of an [Assignment: organization-defined unclassified, non-national security system] to an external network without the use of [FedRAMP Assignment: boundary protections which meet Trusted Internet Connection (TIC) requirements].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Organizations typically do not have control over external networks (e.g., the Internet). Approved boundary protection devices (e.g., routers, firewalls) mediate communications (i.e., information flows) between unclassified non-national security systems and external networks. This control enhancement is required for organizations processing, storing, or transmitting Controlled Unclassified Information (CUI).</description>
@@ -3593,7 +3593,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
             </statement>
             <statement>
                 <number>CA-5b.</number>
-                <description>Updates existing plan of action and milestones [Assignment: organization-defined frequency] based on the findings from security controls assessments, security impact analyses, and continuous monitoring activities.</description>
+                <description>Updates existing plan of action and milestones [FedRAMP Assignment: at least monthly] based on the findings from security controls assessments, security impact analyses, and continuous monitoring activities.</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -3641,7 +3641,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
             </statement>
             <statement>
                 <number>CA-6c.</number>
-                <description>Updates the security authorization [Assignment: organization-defined frequency].</description>
+                <description>Updates the security authorization [FedRAMP Assignment: at least every three (3) years or when a significant change occurs].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -3702,7 +3702,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
             </statement>
             <statement>
                 <number>CA-7g.</number>
-                <description>Reporting the security status of organization and the information system to [Assignment: organization-defined personnel or roles] [Assignment: organization-defined frequency].</description>
+                <description>Reporting the security status of organization and the information system to [FedRAMP Assignment: to meet Federal and FedRAMP requirements] [Assignment: organization-defined frequency].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -3788,7 +3788,7 @@ To satisfy annual assessment requirements, organizations can use assessment resu
         <priority>P2</priority>
         <baseline-impact>HIGH</baseline-impact>
         <statement>
-            <description>The organization conducts penetration testing [Assignment: organization-defined frequency] on [Assignment: organization-defined information systems or system components].</description>
+            <description>The organization conducts penetration testing [FedRAMP Assignment: at least annually] on [Assignment: organization-defined information systems or system components].</description>
         </statement>
         <supplemental-guidance>
             <description>Penetration testing is a specialized type of assessment conducted on information systems or individual system components to identify vulnerabilities that could be exploited by adversaries. Such testing can be used to either validate vulnerabilities or determine the degree of resistance organizational information systems have to adversaries within a set of specified constraints (e.g., time, resources, and/or skills). Penetration testing attempts to duplicate the actions of adversaries in carrying out hostile cyber attacks against organizations and provides a more in-depth analysis of security-related weaknesses/deficiencies. Organizations can also use the results of vulnerability analyses to support penetration testing activities. Penetration testing can be conducted on the hardware, software, or firmware components of an information system and can exercise both physical and technical security controls. A standard method for penetration testing includes, for example: (i) pretest analysis based on full knowledge of the target system; (ii) pretest identification of potential vulnerabilities based on pretest analysis; and (iii) testing designed to determine exploitability of identified vulnerabilities. All parties agree to the rules of engagement before the commencement of penetration testing scenarios. Organizations correlate the penetration testing rules of engagement with the tools, techniques, and procedures that are anticipated to be employed by adversaries carrying out attacks. Organizational risk assessments guide decisions on the level of independence required for personnel conducting penetration testing.</description>
