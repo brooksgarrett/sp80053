@@ -2338,11 +2338,11 @@ This control does not apply to the use of external information systems to access
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>AU-1b.1.</number>
-                    <description>Audit and accountability policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Audit and accountability policy [FedRAMP Assignment: at every 3 years]; and</description>
                 </statement>
                 <statement>
                     <number>AU-1b.2.</number>
-                    <description>Audit and accountability procedures [Assignment: organization-defined frequency].</description>
+                    <description>Audit and accountability procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -2371,7 +2371,7 @@ This control does not apply to the use of external information systems to access
             <description>The organization:</description>
             <statement>
                 <number>AU-2a.</number>
-                <description>Determines that the information system is capable of auditing the following events: [Assignment: organization-defined auditable events];</description>
+                <description>Determines that the information system is capable of auditing the following events: [FedRAMP Assignment: [Successful and unsuccessful account logon events, account management events, object access, policy change, privilege functions, process tracking, and system events.  For Web applications: all administrator activity, authentication checks, authorization checks, data deletions, data access, data changes, and permission changes];</description>
             </statement>
             <statement>
                 <number>AU-2b.</number>
@@ -2383,7 +2383,7 @@ This control does not apply to the use of external information systems to access
             </statement>
             <statement>
                 <number>AU-2d.</number>
-                <description>Determines that the following events are to be audited within the information system: [Assignment: organization-defined audited events (the subset of the auditable events defined in AU-2 a.) along with the frequency of (or situation requiring) auditing for each identified event].</description>
+                <description>Determines that the following events are to be audited within the information system: [FedRAMP Assignment: organization-defined subset of the auditable events defined in AU-2 a. to be audited continually for each identified event].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -2424,7 +2424,7 @@ This control does not apply to the use of external information systems to access
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The organization reviews and updates the audited events [Assignment: organization-defined frequency].</description>
+                    <description>The organization reviews and updates the audited events [FedRAMP Assignment: annually or whenever there is a change in the threat environment].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Over time, the events that organizations believe should be audited may change. Reviewing and updating the set of audited events periodically is necessary to ensure that the current set is still necessary and sufficient.</description>
@@ -2475,7 +2475,7 @@ This control does not apply to the use of external information systems to access
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The information system generates audit records containing the following additional information: [Assignment: organization-defined additional, more detailed information].</description>
+                    <description>The information system generates audit records containing the following additional information: [FedRAMP Assignment: organization-defined additional, more detailed information].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Detailed information that organizations may consider in audit records includes, for example, full text recording of privileged commands or the individual identities of group account users. Organizations consider limiting the additional audit information to only that information explicitly needed for specific audit requirements. This facilitates the use of audit trails and audit logs by not including information that could potentially be misleading or could make it more difficult to locate information of interest.</description>
@@ -2545,7 +2545,7 @@ This control does not apply to the use of external information systems to access
             </statement>
             <statement>
                 <number>AU-5b.</number>
-                <description>Takes the following additional actions: [Assignment: organization-defined actions to be taken (e.g., shut down information system, overwrite oldest audit records, stop generating audit records)].</description>
+                <description>Takes the following additional actions: [FedRAMP Assignment: organization-defined actions to be taken; (overwrite oldest record)].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -2611,7 +2611,7 @@ This control does not apply to the use of external information systems to access
             <description>The organization:</description>
             <statement>
                 <number>AU-6a.</number>
-                <description>Reviews and analyzes information system audit records [Assignment: organization-defined frequency] for indications of [Assignment: organization-defined inappropriate or unusual activity]; and</description>
+                <description>Reviews and analyzes information system audit records [FedRAMP Assignment: at least weekly] for indications of [Assignment: organization-defined inappropriate or unusual activity]; and</description>
             </statement>
             <statement>
                 <number>AU-6b.</number>
@@ -2855,7 +2855,7 @@ This control does not apply to the use of external information systems to access
                     <description>The information system:</description>
                     <statement>
                         <number>AU-8 (1)(a)</number>
-                        <description>Compares the internal information system clocks [Assignment: organization-defined frequency] with [Assignment: organization-defined authoritative time source]; and</description>
+                        <description>Compares the internal information system clocks [FedRAMP Assignment: at least hourly] with [FedRAMP Assignment: authoritative time source: [http://tf.nist.gov/tf-cgi/servers.cgi]]; and</description>
                     </statement>
                     <statement>
                         <number>AU-8 (1)(b)</number>
@@ -2914,7 +2914,7 @@ This control does not apply to the use of external information systems to access
                 <title>AUDIT BACKUP ON SEPARATE PHYSICAL SYSTEMS / COMPONENTS</title>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The information system backs up audit records [Assignment: organization-defined frequency] onto a physically different system or system component than the system or component being audited.</description>
+                    <description>The information system backs up audit records [FedRAMP Assignment: at least weekly] onto a physically different system or system component than the system or component being audited.</description>
                 </statement>
                 <supplemental-guidance>
                     <description>This control enhancement helps to ensure that a compromise of the information system being audited does not also result in a compromise of the audit records.</description>
@@ -3087,7 +3087,7 @@ This control does not apply to the use of external information systems to access
         <baseline-impact>MODERATE</baseline-impact>
         <baseline-impact>HIGH</baseline-impact>
         <statement>
-            <description>The organization retains audit records for [Assignment: organization-defined time period consistent with records retention policy] to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements.</description>
+            <description>The organization retains audit records for [FedRAMP Assignment: at least ninety (90) days] to provide support for after-the-fact investigations of security incidents and to meet regulatory and organizational information retention requirements.</description>
         </statement>
         <supplemental-guidance>
             <description>Organizations retain audit records until it is determined that they are no longer needed for administrative, legal, audit, or other operational purposes. This includes, for example, retention and availability of audit records relative to Freedom of Information Act (FOIA) requests, subpoenas, and law enforcement actions. Organizations develop standard categories of audit records relative to such types of actions and standard response processes for each type of action. The National Archives and Records Administration (NARA) General Records Schedules provide federal policy on record retention.</description>
@@ -3121,7 +3121,7 @@ This control does not apply to the use of external information systems to access
             <description>The information system:</description>
             <statement>
                 <number>AU-12a.</number>
-                <description>Provides audit record generation capability for the auditable events defined in AU-2 a. at [Assignment: organization-defined information system components];</description>
+                <description>Provides audit record generation capability for the auditable events defined in AU-2 a. at [FedRAMP Assignment: all information system components where audit capability is deployed/available];</description>
             </statement>
             <statement>
                 <number>AU-12b.</number>
