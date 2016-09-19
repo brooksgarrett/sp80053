@@ -10756,11 +10756,11 @@ Risk assessments (either formal or informal) can be conducted at all three tiers
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>SA-1b.1.</number>
-                    <description>System and services acquisition policy [Assignment: organization-defined frequency]; and</description>
+                    <description>System and services acquisition policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>SA-1b.2.</number>
-                    <description>System and services acquisition procedures [Assignment: organization-defined frequency].</description>
+                    <description>System and services acquisition procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -10924,7 +10924,7 @@ Security functionality, assurance, and documentation requirements are expressed 
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: [Selection (one or more): security-relevant external system interfaces; high-level design; low-level design; source code or hardware schematics; [Assignment: organization-defined design/implementation information]] at [Assignment: organization-defined level of detail].</description>
+                    <description>The organization requires the developer of the information system, system component, or information system service to provide design and implementation information for the security controls to be employed that includes: [FedRAMP Selection (one or more): to include security-relevant external system interfaces, and high-level design]; [Assignment: organization-defined design/implementation information]] at [Assignment: organization-defined level of detail].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Organizations may require different levels of detail in design and implementation documentation for security controls employed in organizational information systems, system components, or information system services based on mission/business requirements, requirements for trustworthiness/resiliency, and requirements for analysis and testing. Information systems can be partitioned into multiple subsystems. Each subsystem within the system can contain one or more modules. The high-level design for the system is expressed in terms of multiple subsystems and the interfaces between subsystems providing security-relevant functionality. The low-level design for the system is expressed in terms of modules with particular emphasis on software and firmware (but not excluding hardware) and the interfaces between modules providing security-relevant functionality. Source code and hardware schematics are typically referred to as the implementation representation of the information system.</description>
@@ -11015,7 +11015,7 @@ Security functionality, assurance, and documentation requirements are expressed 
                 <number>SA-4 (8)</number>
                 <title>CONTINUOUS MONITORING PLAN</title>
                 <statement>
-                    <description>The organization requires the developer of the information system, system component, or information system service to produce a plan for the continuous monitoring of security control effectiveness that contains [Assignment: organization-defined level of detail].</description>
+                    <description>The organization requires the developer of the information system, system component, or information system service to produce a plan for the continuous monitoring of security control effectiveness that contains [FedRAMP Assignment: at least the minimum requirement as defined in control CA-7].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>The objective of continuous monitoring plans is to determine if the complete set of planned, required, and deployed security controls within the information system, system component, or information system service continue to be effective over time based on the inevitable changes that occur. Developer continuous monitoring plans include a sufficient level of detail such that the information can be incorporated into the continuous monitoring strategies and programs implemented by organizations.</description>
@@ -11278,7 +11278,7 @@ Security functionality, assurance, and documentation requirements are expressed 
             <description>The organization:</description>
             <statement>
                 <number>SA-9a.</number>
-                <description>Requires that providers of external information system services comply with organizational information security requirements and employ [Assignment: organization-defined security controls] in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance;</description>
+                <description>Requires that providers of external information system services comply with organizational information security requirements and employ [FedRAMP Assignment: FedRAMP Security Controls Baseline(s) if Federal information is processed or stored within the external system] in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, standards, and guidance;</description>
             </statement>
             <statement>
                 <number>SA-9b.</number>
@@ -11286,7 +11286,7 @@ Security functionality, assurance, and documentation requirements are expressed 
             </statement>
             <statement>
                 <number>SA-9c.</number>
-                <description>Employs [Assignment: organization-defined processes, methods, and techniques] to monitor security control compliance by external service providers on an ongoing basis.</description>
+                <description>Employs [FedRAMP Assignment: Federal/FedRAMP Continuous Monitoring requirements must be met for external systems where Federal information is processed or stored] to monitor security control compliance by external service providers on an ongoing basis.</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -11322,7 +11322,7 @@ Security functionality, assurance, and documentation requirements are expressed 
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The organization requires providers of [Assignment: organization-defined external information system services] to identify the functions, ports, protocols, and other services required for the use of such services.</description>
+                    <description>The organization requires providers of [FedRAMP Assignment: All external systems where Federal information is processed or stored] to identify the functions, ports, protocols, and other services required for the use of such services.</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Information from external service providers regarding the specific functions, ports, protocols, and services used in the provision of such services can be particularly useful when the need arises to understand the trade-offs involved in restricting certain functions/services or blocking certain ports/protocols.</description>
@@ -11343,7 +11343,7 @@ Security functionality, assurance, and documentation requirements are expressed 
                 <number>SA-9 (4)</number>
                 <title>CONSISTENT INTERESTS OF CONSUMERS AND PROVIDERS</title>
                 <statement>
-                    <description>The organization employs [Assignment: organization-defined security safeguards] to ensure that the interests of [Assignment: organization-defined external service providers] are consistent with and reflect organizational interests.</description>
+                    <description>The organization employs [Assignment: organization-defined security safeguards] to ensure that the interests of [FedRAMP Assignment: All external systems where Federal information is processed or stored] are consistent with and reflect organizational interests.</description>
                 </statement>
                 <supplemental-guidance>
                     <description>As organizations increasingly use external service providers, the possibility exists that the interests of the service providers may diverge from organizational interests. In such situations, simply having the correct technical, procedural, or operational safeguards in place may not be sufficient if the service providers that implement and control those safeguards are not operating in a manner consistent with the interests of the consuming organizations. Possible actions that organizations might take to address such concerns include, for example, requiring background checks for selected service provider personnel, examining ownership records, employing only trustworthy service providers (i.e., providers with which organizations have had positive experiences), and conducting periodic/unscheduled visits to service provider facilities.</description>
@@ -11353,7 +11353,7 @@ Security functionality, assurance, and documentation requirements are expressed 
                 <number>SA-9 (5)</number>
                 <title>PROCESSING, STORAGE, AND SERVICE LOCATION</title>
                 <statement>
-                    <description>The organization restricts the location of [Selection (one or more): information processing; information/data; information system services] to [Assignment: organization-defined locations] based on [Assignment: organization-defined requirements or conditions].</description>
+                    <description>The organization restricts the location of [FedRAMP Selection: information processing, information data, AND information services] to [Assignment: organization-defined locations] based on [Assignment: organization-defined requirements or conditions].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>The location of information processing, information/data storage, or information system services that are critical to organizations can have a direct impact on the ability of those organizations to successfully execute their missions/business functions. This situation exists when external providers control the location of processing, storage or services. The criteria external providers use for the selection of processing, storage, or service locations may be different from organizational criteria. For example, organizations may want to ensure that data/information storage locations are restricted to certain locations to facilitate incident response activities (e.g., forensic analyses, after-the-fact investigations) in case of information security breaches/compromises. Such incident response activities may be adversely affected by the governing laws or protocols in the locations where processing and storage occur and/or the locations from which information system services emanate.</description>
@@ -11377,7 +11377,7 @@ Security functionality, assurance, and documentation requirements are expressed 
             <description>The organization requires the developer of the information system, system component, or information system service to:</description>
             <statement>
                 <number>SA-10a.</number>
-                <description>Perform configuration management during system, component, or service [Selection (one or more): design; development; implementation; operation];</description>
+                <description>Perform configuration management during system, component, or service [FedRAMP Selection: development, implementation, AND operation];</description>
             </statement>
             <statement>
                 <number>SA-10b.</number>
