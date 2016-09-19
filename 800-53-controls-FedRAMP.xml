@@ -10404,11 +10404,11 @@ In today�s modern architecture, it is becoming less common for organizations t
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>RA-1b.1.</number>
-                    <description>Risk assessment policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Risk assessment policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>RA-1b.2.</number>
-                    <description>Risk assessment procedures [Assignment: organization-defined frequency].</description>
+                    <description>Risk assessment procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -10489,11 +10489,11 @@ In today�s modern architecture, it is becoming less common for organizations t
             </statement>
             <statement>
                 <number>RA-3b.</number>
-                <description>Documents risk assessment results in [Selection: security plan; risk assessment report; [Assignment: organization-defined document]];</description>
+                <description>Documents risk assessment results in [Selection: security plan; risk assessment report; [FedRAMP Assignment: security assessment report]];</description>
             </statement>
             <statement>
                 <number>RA-3c.</number>
-                <description>Reviews risk assessment results [Assignment: organization-defined frequency];</description>
+                <description>Reviews risk assessment results [FedRAMP Assignment: at least every three (3) years or when a significant change occurs];</description>
             </statement>
             <statement>
                 <number>RA-3d.</number>
@@ -10501,7 +10501,7 @@ In today�s modern architecture, it is becoming less common for organizations t
             </statement>
             <statement>
                 <number>RA-3e.</number>
-                <description>Updates the risk assessment [Assignment: organization-defined frequency] or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system.</description>
+                <description>Updates the risk assessment [FedRAMP Assignment: at least every three (3) years or when a significant change occurs] or whenever there are significant changes to the information system or environment of operation (including the identification of new threats and vulnerabilities), or other conditions that may impact the security state of the system.</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -10548,7 +10548,7 @@ Risk assessments (either formal or informal) can be conducted at all three tiers
             <description>The organization:</description>
             <statement>
                 <number>RA-5a.</number>
-                <description>Scans for vulnerabilities in the information system and hosted applications [Assignment: organization-defined frequency and/or randomly in accordance with organization-defined process] and when new vulnerabilities potentially affecting the system/applications are identified and reported;</description>
+                <description>Scans for vulnerabilities in the information system and hosted applications [FedRAMP Assignment: monthly operating system/infrastructure; monthly web applications and databases] and when new vulnerabilities potentially affecting the system/applications are identified and reported;</description>
             </statement>
             <statement>
                 <number>RA-5b.</number>
@@ -10572,7 +10572,7 @@ Risk assessments (either formal or informal) can be conducted at all three tiers
             </statement>
             <statement>
                 <number>RA-5d.</number>
-                <description>Remediates legitimate vulnerabilities [Assignment: organization-defined response times] in accordance with an organizational assessment of risk; and</description>
+                <description>Remediates legitimate vulnerabilities [FedRAMP Assignment: high-risk vulnerabilities mitigated within thirty (30) days from date of discovery; moderate risk vulnerabilities mitigated within ninety (90) days from date of discovery] in accordance with an organizational assessment of risk; and</description>
             </statement>
             <statement>
                 <number>RA-5e.</number>
@@ -10611,7 +10611,7 @@ Risk assessments (either formal or informal) can be conducted at all three tiers
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The organization updates the information system vulnerabilities scanned [Selection (one or more): [Assignment: organization-defined frequency]; prior to a new scan; when new vulnerabilities are identified and reported].</description>
+                    <description>The organization updates the information system vulnerabilities scanned [Selection (one or more): [FedRAMP Assignment: prior to a new scan]; prior to a new scan; when new vulnerabilities are identified and reported].</description>
                 </statement>
                 <supplemental-guidance>
                     <related>SI-3</related>
@@ -10643,7 +10643,7 @@ Risk assessments (either formal or informal) can be conducted at all three tiers
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The information system implements privileged access authorization to [Assignment: organization-identified information system components] for selected [Assignment: organization-defined vulnerability scanning activities].</description>
+                    <description>The information system implements privileged access authorization to [FedRAMP Assignment: operating systems, databases, web applications] for selected [FedRAMP Assignment: all scans].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>In certain situations, the nature of the vulnerability scanning may be more intrusive or the information system component that is the subject of the scanning may contain highly sensitive information. Privileged access authorization to selected system components facilitates more thorough vulnerability scanning and also protects the sensitive nature of such scanning.</description>
