@@ -9951,11 +9951,11 @@ In today�s modern architecture, it is becoming less common for organizations t
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>PS-1b.1.</number>
-                    <description>Personnel security policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Personnel security policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>PS-1b.2.</number>
-                    <description>Personnel security procedures [Assignment: organization-defined frequency].</description>
+                    <description>Personnel security procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -9992,7 +9992,7 @@ In today�s modern architecture, it is becoming less common for organizations t
             </statement>
             <statement>
                 <number>PS-2c.</number>
-                <description>Reviews and updates position risk designations [Assignment: organization-defined frequency].</description>
+                <description>Reviews and updates position risk designations [FedRAMP Assignment: at least every three (3) years].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -10023,7 +10023,7 @@ In today�s modern architecture, it is becoming less common for organizations t
             </statement>
             <statement>
                 <number>PS-3b.</number>
-                <description>Rescreens individuals according to [Assignment: organization-defined conditions requiring rescreening and, where rescreening is so indicated, the frequency of such rescreening].</description>
+                <description>Rescreens individuals according to [FedRAMP Assignment: For national security clearances; a reinvestigation is required during the fifth (5th) year for top secret security clearance, the tenth (10th) year for secret security clearance, and fifteenth (15th) year for confidential security clearance.  For moderate risk law enforcement and high impact public trust level, a reinvestigation is required during the fifth (5th) year.  There is no reinvestigation for other moderate risk positions or any low risk positions].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -10068,7 +10068,7 @@ In today�s modern architecture, it is becoming less common for organizations t
                     </statement>
                     <statement>
                         <number>PS-3 (3)(b)</number>
-                        <description>Satisfy [Assignment: organization-defined additional personnel screening criteria].</description>
+                        <description>Satisfy [FedRAMP Assignment: personnel screening criteria – as required by specific information].</description>
                     </statement>
                 </statement>
                 <supplemental-guidance>
@@ -10115,7 +10115,7 @@ In today�s modern architecture, it is becoming less common for organizations t
             <description>The organization, upon termination of individual employment:</description>
             <statement>
                 <number>PS-4a.</number>
-                <description>Disables information system access within [Assignment: organization-defined time period];</description>
+                <description>Disables information system access within [FedRAMP Assignment: same day];</description>
             </statement>
             <statement>
                 <number>PS-4b.</number>
@@ -10202,7 +10202,7 @@ In today�s modern architecture, it is becoming less common for organizations t
             </statement>
             <statement>
                 <number>PS-5d.</number>
-                <description>Notifies [Assignment: organization-defined personnel or roles] within [Assignment: organization-defined time period].</description>
+                <description>Notifies [Assignment: organization-defined personnel or roles] within [FedRAMP Assignment: five (5) days of the time period following the formal transfer action (DoD twenty-four (24) hours)].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -10229,7 +10229,7 @@ In today�s modern architecture, it is becoming less common for organizations t
             </statement>
             <statement>
                 <number>PS-6b.</number>
-                <description>Reviews and updates the access agreements [Assignment: organization-defined frequency]; and</description>
+                <description>Reviews and updates the access agreements [FedRAMP Assignment: at least annually]; and</description>
             </statement>
             <statement>
                 <number>PS-6c.</number>
@@ -10240,7 +10240,7 @@ In today�s modern architecture, it is becoming less common for organizations t
                 </statement>
                 <statement>
                     <number>PS-6c.2.</number>
-                    <description>Re-sign access agreements to maintain access to organizational information systems when access agreements have been updated or [Assignment: organization-defined frequency].</description>
+                    <description>Re-sign access agreements to maintain access to organizational information systems when access agreements have been updated or [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -10329,7 +10329,7 @@ In today�s modern architecture, it is becoming less common for organizations t
             </statement>
             <statement>
                 <number>PS-7d.</number>
-                <description>Requires third-party providers to notify [Assignment: organization-defined personnel or roles] of any personnel transfers or terminations of third-party personnel who possess organizational credentials and/or badges, or who have information system privileges within [Assignment: organization-defined time period]; and</description>
+                <description>Requires third-party providers to notify [Assignment: organization-defined personnel or roles] of any personnel transfers or terminations of third-party personnel who possess organizational credentials and/or badges, or who have information system privileges within [FedRAMP Assignment: organization-defined time period; same day]; and</description>
             </statement>
             <statement>
                 <number>PS-7e.</number>
