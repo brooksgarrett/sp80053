@@ -5900,11 +5900,11 @@ Common secure configurations (also referred to as security configuration checkli
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>IA-1b.1.</number>
-                    <description>Identification and authentication policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Identification and authentication policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>IA-1b.2.</number>
-                    <description>Identification and authentication procedures [Assignment: organization-defined frequency].</description>
+                    <description>Identification and authentication procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -6068,7 +6068,7 @@ Organizations can satisfy the identification and authentication requirements in 
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The information system implements multifactor authentication for remote access to privileged and non-privileged accounts such that one of the factors is provided by a device separate from the system gaining access and the device meets [Assignment: organization-defined strength of mechanism requirements].</description>
+                    <description>The information system implements multifactor authentication for remote access to privileged and non-privileged accounts such that one of the factors is provided by a device separate from the system gaining access and the device meets [FedRAMP Assignment: FIPS 140-2, NIAP Certification, or NSA approval].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>For remote access to privileged/non-privileged accounts, the purpose of requiring a device that is separate from the information system gaining access for one of the factors during multifactor authentication is to reduce the likelihood of compromising authentication credentials stored on the system. For example, adversaries deploying malicious code on organizational information systems can potentially compromise such credentials resident on the system and subsequently impersonate authorized users.</description>
@@ -6230,7 +6230,7 @@ Organizations can satisfy the identification and authentication requirements in 
             <description>The organization manages information system identifiers by:</description>
             <statement>
                 <number>IA-4a.</number>
-                <description>Receiving authorization from [Assignment: organization-defined personnel or roles] to assign an individual, group, role, or device identifier;</description>
+                <description>Receiving authorization from [FedRAMP Assignment at a minimum, the ISSO (or similar role within the organization)] to assign an individual, group, role, or device identifier;</description>
             </statement>
             <statement>
                 <number>IA-4b.</number>
@@ -6242,11 +6242,11 @@ Organizations can satisfy the identification and authentication requirements in 
             </statement>
             <statement>
                 <number>IA-4d.</number>
-                <description>Preventing reuse of identifiers for [Assignment: organization-defined time period]; and</description>
+                <description>Preventing reuse of identifiers for [FedRAMP Assignment: at least two (2) years]; and</description>
             </statement>
             <statement>
                 <number>IA-4e.</number>
-                <description>Disabling the identifier after [Assignment: organization-defined time period of inactivity].</description>
+                <description>Disabling the identifier after [FedRAMP Assignment: ninety days for user identifiers].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -6291,7 +6291,7 @@ Organizations can satisfy the identification and authentication requirements in 
                 <number>IA-4 (4)</number>
                 <title>IDENTIFY USER STATUS</title>
                 <statement>
-                    <description>The organization manages individual identifiers by uniquely identifying each individual as [Assignment: organization-defined characteristic identifying individual status].</description>
+                    <description>The organization manages individual identifiers by uniquely identifying each individual as [FedRAMP Assignment: contractors; foreign nationals].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Characteristics identifying the status of individuals include, for example, contractors and foreign nationals. Identifying the status of individuals by specific characteristics provides additional information about the people with whom organizational personnel are communicating. For example, it might be useful for a government employee to know that one of the individuals on an email message is a contractor.</description>
@@ -6381,7 +6381,7 @@ Organizations can satisfy the identification and authentication requirements in 
             </statement>
             <statement>
                 <number>IA-5g.</number>
-                <description>Changing/refreshing authenticators [Assignment: organization-defined time period by authenticator type];</description>
+                <description>Changing/refreshing authenticators [FedRAMP Assignment: to include sixty (60) days for passwords];</description>
             </statement>
             <statement>
                 <number>IA-5h.</number>
@@ -6424,11 +6424,11 @@ Organizations can satisfy the identification and authentication requirements in 
                     <description>The information system, for password-based authentication:</description>
                     <statement>
                         <number>IA-5 (1)(a)</number>
-                        <description>Enforces minimum password complexity of [Assignment: organization-defined requirements for case sensitivity, number of characters, mix of upper-case letters, lower-case letters, numbers, and special characters, including minimum requirements for each type];</description>
+                        <description>Enforces minimum password complexity of [FedRAMP Assignment: case sensitive, minimum of twelve (12) characters, and at least one (1) each of upper-case letters, lower-case letters, numbers, and special characters];</description>
                     </statement>
                     <statement>
                         <number>IA-5 (1)(b)</number>
-                        <description>Enforces at least the following number of changed characters when new passwords are created: [Assignment: organization-defined number];</description>
+                        <description>Enforces at least the following number of changed characters when new passwords are created: [FedRAMP Assignment: at least one (1)];</description>
                     </statement>
                     <statement>
                         <number>IA-5 (1)(c)</number>
@@ -6436,11 +6436,11 @@ Organizations can satisfy the identification and authentication requirements in 
                     </statement>
                     <statement>
                         <number>IA-5 (1)(d)</number>
-                        <description>Enforces password minimum and maximum lifetime restrictions of [Assignment: organization-defined numbers for lifetime minimum, lifetime maximum];</description>
+                        <description>Enforces password minimum and maximum lifetime restrictions of [FedRAMP Assignment: one (1) day minimum, sixty (60) day maximum];</description>
                     </statement>
                     <statement>
                         <number>IA-5 (1)(e)</number>
-                        <description>Prohibits password reuse for [Assignment: organization-defined number] generations; and</description>
+                        <description>Prohibits password reuse for [FedRAMP Assignment: twenty-four (24)] generations; and</description>
                     </statement>
                     <statement>
                         <number>IA-5 (1)(f)</number>
@@ -6487,7 +6487,7 @@ Organizations can satisfy the identification and authentication requirements in 
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The organization requires that the registration process to receive [Assignment: organization-defined types of and/or specific authenticators] be conducted [Selection: in person; by a trusted third party] before [Assignment: organization-defined registration authority] with authorization by [Assignment: organization-defined personnel or roles].</description>
+                    <description>The organization requires that the registration process to receive [FedRAMP Assignment: All hardware/biometric (multifactor authenticators] be conducted [FedRAMP Selection: in person] before [Assignment: organization-defined registration authority] with authorization by [Assignment: organization-defined personnel or roles].</description>
                 </statement>
             </control-enhancement>
             <control-enhancement>
