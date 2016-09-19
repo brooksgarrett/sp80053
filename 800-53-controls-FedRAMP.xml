@@ -9544,11 +9544,11 @@ Physical and technical safeguards for media are commensurate with the security c
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>PL-1b.1.</number>
-                    <description>Security planning policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Security planning policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>PL-1b.2.</number>
-                    <description>Security planning procedures [Assignment: organization-defined frequency].</description>
+                    <description>Security planning procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -9624,7 +9624,7 @@ Physical and technical safeguards for media are commensurate with the security c
             </statement>
             <statement>
                 <number>PL-2c.</number>
-                <description>Reviews the security plan for the information system [Assignment: organization-defined frequency];</description>
+                <description>Reviews the security plan for the information system [FedRAMP Assignment: at least annually];</description>
             </statement>
             <statement>
                 <number>PL-2d.</number>
@@ -9736,7 +9736,7 @@ Security plans need not be single documents; the plans can be a collection of va
             </statement>
             <statement>
                 <number>PL-4c.</number>
-                <description>Reviews and updates the rules of behavior [Assignment: organization-defined frequency]; and</description>
+                <description>Reviews and updates the rules of behavior [FedRAMP Assignment: at least every three (3) years]; and</description>
             </statement>
             <statement>
                 <number>PL-4d.</number>
@@ -9855,7 +9855,7 @@ Security plans need not be single documents; the plans can be a collection of va
             </statement>
             <statement>
                 <number>PL-8b.</number>
-                <description>Reviews and updates the information security architecture [Assignment: organization-defined frequency] to reflect updates in the enterprise architecture; and</description>
+                <description>Reviews and updates the information security architecture [FedRAMP Assignment: at least annually or when a significant change occurs] to reflect updates in the enterprise architecture; and</description>
             </statement>
             <statement>
                 <number>PL-8c.</number>
