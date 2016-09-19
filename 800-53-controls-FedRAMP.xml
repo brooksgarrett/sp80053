@@ -14518,11 +14518,11 @@ Assurance is also based on the assessment of evidence produced during the system
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>SI-1b.1.</number>
-                    <description>System and information integrity policy [Assignment: organization-defined frequency]; and</description>
+                    <description>System and information integrity policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>SI-1b.2.</number>
-                    <description>System and information integrity procedures [Assignment: organization-defined frequency].</description>
+                    <description>System and information integrity procedures [FedRAMP Assignment: at least at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -14559,7 +14559,7 @@ Assurance is also based on the assessment of evidence produced during the system
             </statement>
             <statement>
                 <number>SI-2c.</number>
-                <description>Installs security-relevant software and firmware updates within [Assignment: organization-defined time period] of the release of the updates; and</description>
+                <description>Installs security-relevant software and firmware updates within [FedRAMP Assignment: thirty 30 days of release of updates] of the release of the updates; and</description>
             </statement>
             <statement>
                 <number>SI-2d.</number>
@@ -14598,7 +14598,7 @@ Assurance is also based on the assessment of evidence produced during the system
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The organization employs automated mechanisms [Assignment: organization-defined frequency] to determine the state of information system components with regard to flaw remediation.</description>
+                    <description>The organization employs automated mechanisms [FedRAMP Assignment: at least monthly] to determine the state of information system components with regard to flaw remediation.</description>
                 </statement>
                 <supplemental-guidance>
                     <related>CM-6</related>
@@ -14686,11 +14686,11 @@ Assurance is also based on the assessment of evidence produced during the system
                 <description>Configures malicious code protection mechanisms to:</description>
                 <statement>
                     <number>SI-3c.1.</number>
-                    <description>Perform periodic scans of the information system [Assignment: organization-defined frequency] and real-time scans of files from external sources at [Selection (one or more); endpoint; network entry/exit points] as the files are downloaded, opened, or executed in accordance with organizational security policy; and</description>
+                    <description>Perform periodic scans of the information system [FedRAMP Assignment: at least weekly] and real-time scans of files from external sources at [FedRAMP Assignment: to include endpoints] as the files are downloaded, opened, or executed in accordance with organizational security policy; and</description>
                 </statement>
                 <statement>
                     <number>SI-3c.2.</number>
-                    <description>[Selection (one or more): block malicious code; quarantine malicious code;  send alert to administrator; [Assignment: organization-defined action]] in response to malicious code detection; and</description>
+                    <description>[FedRAMP Assignment: to include alerting administrator or defined security personnel] in response to malicious code detection; and</description>
                 </statement>
             </statement>
             <statement>
@@ -14961,7 +14961,7 @@ Assurance is also based on the assessment of evidence produced during the system
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The information system monitors inbound and outbound communications traffic [Assignment: organization-defined frequency] for unusual or unauthorized activities or conditions.</description>
+                    <description>The information system monitors inbound and outbound communications traffic [FedRAMP Assignment: continuously] for unusual or unauthorized activities or conditions.</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Unusual/unauthorized activities or conditions related to information system inbound and outbound communications traffic include, for example, internal traffic that indicates the presence of malicious code within organizational information systems or propagating among system components, the unauthorized exporting of information, or signaling to external information systems. Evidence of malicious code is used to identify potentially compromised information systems or information system components.</description>
@@ -15216,7 +15216,7 @@ Assurance is also based on the assessment of evidence produced during the system
             <description>The organization:</description>
             <statement>
                 <number>SI-5a.</number>
-                <description>Receives information system security alerts, advisories, and directives from [Assignment: organization-defined external organizations] on an ongoing basis;</description>
+                <description>Receives information system security alerts, advisories, and directives from [FedRAMP Assignment: to include US-CERT] on an ongoing basis;</description>
             </statement>
             <statement>
                 <number>SI-5b.</number>
@@ -15224,7 +15224,7 @@ Assurance is also based on the assessment of evidence produced during the system
             </statement>
             <statement>
                 <number>SI-5c.</number>
-                <description>Disseminates security alerts, advisories, and directives to: [Selection (one or more): [Assignment: organization-defined personnel or roles]; [Assignment: organization-defined elements within the organization]; [Assignment: organization-defined external organizations]]; and</description>
+                <description>Disseminates security alerts, advisories, and directives to: [FedRAMP Assignment: to include system security personnel and administrators with configuration/patch-management responsibilities]; and</description>
             </statement>
             <statement>
                 <number>SI-5d.</number>
@@ -15268,15 +15268,15 @@ Assurance is also based on the assessment of evidence produced during the system
             </statement>
             <statement>
                 <number>SI-6b.</number>
-                <description>Performs this verification [Selection (one or more): [Assignment: organization-defined system transitional states]; upon command by user with appropriate privilege; [Assignment: organization-defined frequency]];</description>
+                <description>Performs this verification [FedRAMP Assignment: to include upon system startup and/or restart at least monthly];</description>
             </statement>
             <statement>
                 <number>SI-6c.</number>
-                <description>Notifies [Assignment: organization-defined personnel or roles] of failed security verification tests; and</description>
+                <description>Notifies [FedRAMP Assignment: to include system administrators and security personnel] of failed security verification tests; and</description>
             </statement>
             <statement>
                 <number>SI-6d.</number>
-                <description>[Selection (one or more): shuts the information system down; restarts the information system; [Assignment: organization-defined alternative action(s)]] when anomalies are discovered.</description>
+                <description>[Selection (one or more): shuts the information system down; restarts the information system; [FedRAMP Assignment: to include notification of system administrators and security personnel]] when anomalies are discovered.</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -15344,7 +15344,7 @@ Assurance is also based on the assessment of evidence produced during the system
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The information system performs an integrity check of [Assignment: organization-defined software, firmware, and information] [Selection (one or more): at startup; at [Assignment: organization-defined transitional states or security-relevant events]; [Assignment: organization-defined frequency]].</description>
+                    <description>The information system performs an integrity check of [Assignment: organization-defined software, firmware, and information] [FedRAMP Selection (one or more): at startup; at [FedRAMP Assignment: to include security-relevant events]; [FedRAMP Assignment: at least monthly]].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Security-relevant events include, for example, the identification of a new threat to which organizational information systems are susceptible, and the installation of new hardware, software, or firmware. Transitional states include, for example, system startup, restart, shutdown, and abort.</description>
