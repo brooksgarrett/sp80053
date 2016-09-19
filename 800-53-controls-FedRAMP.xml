@@ -12485,11 +12485,11 @@ Assurance is also based on the assessment of evidence produced during the system
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>SC-1b.1.</number>
-                    <description>System and communications protection policy [Assignment: organization-defined frequency]; and</description>
+                    <description>System and communications protection policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>SC-1b.2.</number>
-                    <description>System and communications protection procedures [Assignment: organization-defined frequency].</description>
+                    <description>System and communications protection procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -12813,7 +12813,7 @@ Assurance is also based on the assessment of evidence produced during the system
                     </statement>
                     <statement>
                         <number>SC-7 (4)(e)</number>
-                        <description>Reviews exceptions to the traffic flow policy [Assignment: organization-defined frequency] and removes exceptions that are no longer supported by an explicit mission/business need.</description>
+                        <description>Reviews exceptions to the traffic flow policy [FedRAMP Assignment: at least at least annually] and removes exceptions that are no longer supported by an explicit mission/business need.</description>
                     </statement>
                 </statement>
                 <supplemental-guidance>
@@ -12927,7 +12927,7 @@ Assurance is also based on the assessment of evidence produced during the system
                 <number>SC-7 (13)</number>
                 <title>ISOLATION OF SECURITY TOOLS / MECHANISMS / SUPPORT COMPONENTS</title>
                 <statement>
-                    <description>The organization isolates [Assignment: organization-defined information security tools, mechanisms, and support components] from other internal information system components by implementing physically separate subnetworks with managed interfaces to other components of the system.</description>
+                    <description>The organization isolates [FedRAMP Assignment: See SC-7 (13) additional FedRAMP Requirements and Guidance] from other internal information system components by implementing physically separate subnetworks with managed interfaces to other components of the system.</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Physically separate subnetworks with managed interfaces are useful, for example, in isolating computer network defenses from critical operational processing networks to prevent adversaries from discovering the analysis and forensics techniques of organizations.</description>
@@ -13069,7 +13069,7 @@ Assurance is also based on the assessment of evidence produced during the system
         <baseline-impact>MODERATE</baseline-impact>
         <baseline-impact>HIGH</baseline-impact>
         <statement>
-            <description>The information system protects the [Selection (one or more): confidentiality; integrity] of transmitted information.</description>
+            <description>The information system protects the [FedRAMP Assignment: confidentiality AND integrity] of transmitted information.</description>
         </statement>
         <supplemental-guidance>
             <description>This control applies to both internal and external networks and all types of information system components from which information can be transmitted (e.g., servers, mobile devices, notebook computers, printers, copiers, scanners, facsimile machines). Communication paths outside the physical protection of a controlled boundary are exposed to the possibility of interception and modification. Protecting the confidentiality and/or integrity of organizational information can be accomplished by physical means (e.g., by employing protected distribution systems) or by logical means (e.g., employing encryption techniques). Organizations relying on commercial providers offering transmission services as commodity services rather than as fully dedicated services (i.e., services which can be highly specialized to individual customer needs), may find it difficult to obtain the necessary assurances regarding the implementation of needed security controls for transmission confidentiality/integrity. In such situations, organizations determine what types of confidentiality/integrity services are available in standard, commercial telecommunication service packages. If it is infeasible or impractical to obtain the necessary security controls and assurances of control effectiveness through appropriate contracting vehicles, organizations implement appropriate compensating security controls or explicitly accept the additional risk.</description>
@@ -13083,7 +13083,7 @@ Assurance is also based on the assessment of evidence produced during the system
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The information system implements cryptographic mechanisms to [Selection (one or more): prevent unauthorized disclosure of information; detect changes to information] during transmission unless otherwise protected by [Assignment: organization-defined alternative physical safeguards].</description>
+                    <description>The information system implements cryptographic mechanisms to [FedRAMP Assignment: prevent unauthorized disclosure of information AND detect changes to information] during transmission unless otherwise protected by [FedRAMP Assignment: a hardened or alarmed carrier Protective Distribution System (PDS)].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Encrypting information for transmission protects information from unauthorized disclosure and modification. Cryptographic mechanisms implemented to protect information integrity include, for example, cryptographic hash functions which have common application in digital signatures, checksums, and message authentication codes. Alternative physical security safeguards include, for example, protected distribution systems.</description>
@@ -13172,7 +13172,7 @@ Assurance is also based on the assessment of evidence produced during the system
         <baseline-impact>MODERATE</baseline-impact>
         <baseline-impact>HIGH</baseline-impact>
         <statement>
-            <description>The information system terminates the network connection associated with a communications session at the end of the session or after [Assignment: organization-defined time period] of inactivity.</description>
+            <description>The information system terminates the network connection associated with a communications session at the end of the session or after [FedRAMP Assignment: no longer than thirty (30) minutes for RAS-based sessions and no longer than sixty (60) minutes for non-interactive user sessions] of inactivity.</description>
         </statement>
         <supplemental-guidance>
             <description>This control applies to both internal and external networks. Terminating network connections associated with communications sessions include, for example, de-allocating associated TCP/IP address/port pairs at the operating system level, or de-allocating networking assignments at the application level if multiple application sessions are using a single, operating system-level network connection. Time periods of inactivity may be established by organizations and include, for example, time periods by type of network access or for specific network accesses.</description>
@@ -13233,7 +13233,7 @@ Assurance is also based on the assessment of evidence produced during the system
                 <number>SC-12 (2)</number>
                 <title>SYMMETRIC KEYS</title>
                 <statement>
-                    <description>The organization produces, controls, and distributes symmetric cryptographic keys using [Selection: NIST FIPS-compliant; NSA-approved] key management technology and processes.</description>
+                    <description>The organization produces, controls, and distributes symmetric cryptographic keys using [FedRAMP Selection: NIST FIPS-compliant] key management technology and processes.</description>
                 </statement>
             </control-enhancement>
             <control-enhancement>
@@ -13282,7 +13282,7 @@ Assurance is also based on the assessment of evidence produced during the system
         <baseline-impact>MODERATE</baseline-impact>
         <baseline-impact>HIGH</baseline-impact>
         <statement>
-            <description>The information system implements [Assignment: organization-defined cryptographic uses and type of cryptography required for each use] in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, and standards.</description>
+            <description>The information system implements [FedRAMP Assignment: FIPS-validated or NSA-approved cryptography] in accordance with applicable federal laws, Executive Orders, directives, policies, regulations, and standards.</description>
         </statement>
         <supplemental-guidance>
             <description>Cryptography can be employed to support a variety of security solutions including, for example, the protection of classified and Controlled Unclassified Information, the provision of digital signatures, and the enforcement of information separation when authorized individuals have the necessary clearances for such information but lack the necessary formal access approvals. Cryptography can also be used to support random number generation and hash generation. Generally applicable cryptographic standards include FIPS-validated cryptography and NSA-approved cryptography. This control does not impose any requirements on organizations to use cryptography. However, if cryptography is required based on the selection of other security controls, organizations define each type of cryptographic use and the type of cryptography required (e.g., protection of classified information: NSA-approved cryptography; provision of digital signatures: FIPS-validated cryptography).</description>
@@ -13392,7 +13392,7 @@ Assurance is also based on the assessment of evidence produced during the system
             <description>The information system:</description>
             <statement>
                 <number>SC-15a.</number>
-                <description>Prohibits remote activation of collaborative computing devices with the following exceptions: [Assignment: organization-defined exceptions where remote activation is to be allowed]; and</description>
+                <description>Prohibits remote activation of collaborative computing devices with the following exceptions: [FedRAMP Assignment: no exceptions]; and</description>
             </statement>
             <statement>
                 <number>SC-15b.</number>
@@ -13888,7 +13888,7 @@ Assurance is also based on the assessment of evidence produced during the system
         <baseline-impact>MODERATE</baseline-impact>
         <baseline-impact>HIGH</baseline-impact>
         <statement>
-            <description>The information system protects the [Selection (one or more): confidentiality; integrity] of [Assignment: organization-defined information at rest].</description>
+            <description>The information system protects the [FedRAMP Selection: confidentiality AND integrity] of [Assignment: organization-defined information at rest].</description>
         </statement>
         <supplemental-guidance>
             <description>This control addresses the confidentiality and integrity of information at rest and covers user information and system information. Information at rest refers to the state of information when it is located on storage devices as specific components of information systems. System-related information requiring protection includes, for example, configurations or rule sets for firewalls, gateways, intrusion detection/prevention systems, filtering routers, and authenticator content. Organizations may employ different mechanisms to achieve confidentiality and integrity protections, including the use of cryptographic mechanisms and file share scanning. Integrity protection can be achieved, for example, by implementing Write-Once-Read-Many (WORM) technologies. Organizations may also employ other security controls including, for example, secure off-line storage in lieu of online storage when adequate protection of information at rest cannot otherwise be achieved and/or continuous monitoring to identify malicious code at rest.</description>
@@ -13909,7 +13909,7 @@ Assurance is also based on the assessment of evidence produced during the system
                 <number>SC-28 (1)</number>
                 <title>CRYPTOGRAPHIC PROTECTION</title>
                 <statement>
-                    <description>The information system implements cryptographic mechanisms to prevent unauthorized disclosure and modification of [Assignment: organization-defined information] on [Assignment: organization-defined information system components].</description>
+                    <description>The information system implements cryptographic mechanisms to prevent unauthorized disclosure and modification of [Assignment: organization-defined information] on [FedRAMP Assignment: all information system components storing customer data deemed sensitive].</description>
                 </statement>
                 <supplemental-guidance>
                     <description>Selection of cryptographic mechanisms is based on the need to protect the confidentiality and integrity of organizational information. The strength of mechanism is commensurate with the security category and/or classification of the information. This control enhancement applies to significant concentrations of digital media in organizational areas designated for media storage and also to limited quantities of media generally associated with information system components in operational environments (e.g., portable storage devices, mobile devices). Organizations have the flexibility to either encrypt all information on storage devices (i.e., full disk encryption) or encrypt specific data structures (e.g., files, records, or fields). Organizations employing cryptographic mechanisms to protect information at rest also consider cryptographic key management solutions.</description>
