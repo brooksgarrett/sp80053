@@ -7533,11 +7533,11 @@ Organizations can satisfy the identification and authentication requirements in 
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>MA-1b.1.</number>
-                    <description>System maintenance policy [Assignment: organization-defined frequency]; and</description>
+                    <description>System maintenance policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>MA-1b.2.</number>
-                    <description>System maintenance procedures [Assignment: organization-defined frequency].</description>
+                    <description>System maintenance procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -7695,7 +7695,7 @@ Organizations can satisfy the identification and authentication requirements in 
                     </statement>
                     <statement>
                         <number>MA-3 (3)(d)</number>
-                        <description>Obtaining an exemption from [Assignment: organization-defined personnel or roles] explicitly authorizing removal of the equipment from the facility.</description>
+                        <description>Obtaining an exemption from [FedRAMP Assignment: the information owner explicitly authorizes removal of the equipment from the facility] explicitly authorizing removal of the equipment from the facility.</description>
                     </statement>
                 </statement>
                 <supplemental-guidance>
