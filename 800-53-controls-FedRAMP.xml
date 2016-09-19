@@ -4955,11 +4955,11 @@ Common secure configurations (also referred to as security configuration checkli
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>CP-1b.1.</number>
-                    <description>Contingency planning policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Contingency planning policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>CP-1b.2.</number>
-                    <description>Contingency planning procedures [Assignment: organization-defined frequency].</description>
+                    <description>Contingency planning procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -5030,7 +5030,7 @@ Common secure configurations (also referred to as security configuration checkli
             </statement>
             <statement>
                 <number>CP-2d.</number>
-                <description>Reviews the contingency plan for the information system [Assignment: organization-defined frequency];</description>
+                <description>Reviews the contingency plan for the information system [FedRAMP Assignment: at least annually];</description>
             </statement>
             <statement>
                 <number>CP-2e.</number>
@@ -5180,7 +5180,7 @@ Common secure configurations (also referred to as security configuration checkli
             <description>The organization provides contingency training to information system users consistent with assigned roles and responsibilities:</description>
             <statement>
                 <number>CP-3a.</number>
-                <description>Within [Assignment: organization-defined time period] of assuming a contingency role or responsibility;</description>
+                <description>Within [FedRAMP Assignment: ten (10) days] of assuming a contingency role or responsibility;</description>
             </statement>
             <statement>
                 <number>CP-3b.</number>
@@ -5239,7 +5239,7 @@ Common secure configurations (also referred to as security configuration checkli
             <description>The organization:</description>
             <statement>
                 <number>CP-4a.</number>
-                <description>Tests the contingency plan for the information system [Assignment: organization-defined frequency] using [Assignment: organization-defined tests] to determine the effectiveness of the plan and the organizational readiness to execute the plan;</description>
+                <description>Tests the contingency plan for the information system [FedRAMP Assignment: at least annually for moderate impact systems; at least every three (3)years for low impact systems] using [FedRAMP Assignment: functional exercises for moderate impact systems; classroom exercises/table top written tests for low impact systems ] to determine the effectiveness of the plan and the organizational readiness to execute the plan;</description>
             </statement>
             <statement>
                 <number>CP-4b.</number>
@@ -5417,7 +5417,7 @@ Common secure configurations (also referred to as security configuration checkli
             <description>The organization:</description>
             <statement>
                 <number>CP-7a.</number>
-                <description>Establishes an alternate processing site including necessary agreements to permit the transfer and resumption of [Assignment: organization-defined information system operations] for essential missions/business functions within [Assignment: organization-defined time period consistent with recovery time and recovery point objectives] when the primary processing capabilities are unavailable;</description>
+                <description>Establishes an alternate processing site including necessary agreements to permit the transfer and resumption of [Assignment: organization-defined information system operations] for essential missions/business functions within [FedRAMP Assignment: see additional FedRAMP requirements and guidance] when the primary processing capabilities are unavailable;</description>
             </statement>
             <statement>
                 <number>CP-7b.</number>
@@ -5521,7 +5521,7 @@ Common secure configurations (also referred to as security configuration checkli
         <baseline-impact>MODERATE</baseline-impact>
         <baseline-impact>HIGH</baseline-impact>
         <statement>
-            <description>The organization establishes alternate telecommunications services including necessary agreements to permit the resumption of [Assignment: organization-defined information system operations] for essential missions and business functions within [Assignment: organization-defined time period] when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites.</description>
+            <description>The organization establishes alternate telecommunications services including necessary agreements to permit the resumption of [Assignment: organization-defined information system operations] for essential missions and business functions within [FedRAMP Assignment: See CP-8 additional FedRAMP requirements and guidance] when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites.</description>
         </statement>
         <supplemental-guidance>
             <description>This control applies to telecommunications services (data and voice) for primary and alternate processing and storage sites. Alternate telecommunications services reflect the continuity requirements in contingency plans to maintain essential missions/business functions despite the loss of primary telecommunications services. Organizations may specify different time periods for primary/alternate sites. Alternate telecommunications services include, for example, additional organizational or commercial ground-based circuits/lines or satellites in lieu of ground-based communications. Organizations consider factors such as availability, quality of service, and access when entering into alternate telecommunications agreements.</description>
@@ -5625,15 +5625,15 @@ Common secure configurations (also referred to as security configuration checkli
             <description>The organization:</description>
             <statement>
                 <number>CP-9a.</number>
-                <description>Conducts backups of user-level information contained in the information system [Assignment: organization-defined frequency consistent with recovery time and recovery point objectives];</description>
+                <description>Conducts backups of user-level information contained in the information system [FedRAMP Assignment: daily incremental; weekly full];</description>
             </statement>
             <statement>
                 <number>CP-9b.</number>
-                <description>Conducts backups of system-level information contained in the information system [Assignment: organization-defined frequency consistent with recovery time and recovery point objectives];</description>
+                <description>Conducts backups of system-level information contained in the information system [FedRAMP Assignment: daily incremental; weekly full];</description>
             </statement>
             <statement>
                 <number>CP-9c.</number>
-                <description>Conducts backups of information system documentation including security-related documentation [Assignment: organization-defined frequency consistent with recovery time and recovery point objectives]; and</description>
+                <description>Conducts backups of information system documentation including security-related documentation [FedRAMP Assignment: daily incremental; weekly full]; and</description>
             </statement>
             <statement>
                 <number>CP-9d.</number>
@@ -5655,7 +5655,7 @@ Common secure configurations (also referred to as security configuration checkli
                 <baseline-impact>MODERATE</baseline-impact>
                 <baseline-impact>HIGH</baseline-impact>
                 <statement>
-                    <description>The organization tests backup information [Assignment: organization-defined frequency] to verify media reliability and information integrity.</description>
+                    <description>The organization tests backup information [FedRAMP Assignment: at least annually] to verify media reliability and information integrity.</description>
                 </statement>
                 <supplemental-guidance>
                     <related>CP-4</related>
