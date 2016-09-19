@@ -6894,11 +6894,11 @@ Organizations can satisfy the identification and authentication requirements in 
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>IR-1b.1.</number>
-                    <description>Incident response policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Incident response policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>IR-1b.2.</number>
-                    <description>Incident response procedures [Assignment: organization-defined frequency].</description>
+                    <description>Incident response procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -6941,7 +6941,7 @@ Organizations can satisfy the identification and authentication requirements in 
             </statement>
             <statement>
                 <number>IR-2c.</number>
-                <description>[Assignment: organization-defined frequency] thereafter.</description>
+                <description>[FedRAMP Assignment: at least annually] thereafter.</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -6985,7 +6985,7 @@ Organizations can satisfy the identification and authentication requirements in 
         <baseline-impact>MODERATE</baseline-impact>
         <baseline-impact>HIGH</baseline-impact>
         <statement>
-            <description>The organization tests the incident response capability for the information system [Assignment: organization-defined frequency] using [Assignment: organization-defined tests] to determine the incident response effectiveness and documents the results.</description>
+            <description>The organization tests the incident response capability for the information system [FedRAMP Assignment: at least annually] using [FedRAMP Assignment: see additional FedRAMP Requirements and Guidance] to determine the incident response effectiveness and documents the results.</description>
         </statement>
         <supplemental-guidance>
             <description>Organizations test incident response capabilities to determine the overall effectiveness of the capabilities and to identify potential weaknesses or deficiencies. Incident response testing includes, for example, the use of checklists, walk-through or tabletop exercises, simulations (parallel/full interrupt), and comprehensive exercises. Incident response testing can also include a determination of the effects on organizational operations (e.g., reduction in mission capabilities), organizational assets, and individuals due to incident response.</description>
@@ -7238,7 +7238,7 @@ Organizations can satisfy the identification and authentication requirements in 
             <description>The organization:</description>
             <statement>
                 <number>IR-6a.</number>
-                <description>Requires personnel to report suspected security incidents to the organizational incident response capability within [Assignment: organization-defined time period]; and</description>
+                <description>Requires personnel to report suspected security incidents to the organizational incident response capability within [FedRAMP Assignment: US-CERT incident reporting timelines as specified in NIST SP800-61 (as amended)]; and</description>
             </statement>
             <statement>
                 <number>IR-6b.</number>
@@ -7391,11 +7391,11 @@ Organizations can satisfy the identification and authentication requirements in 
             </statement>
             <statement>
                 <number>IR-8b.</number>
-                <description>Distributes copies of the incident response plan to [Assignment: organization-defined incident response personnel (identified by name and/or by role) and organizational elements];</description>
+                <description>Distributes copies of the incident response plan to [FedRAMP Assignment: see additional FedRAMP Requirements and Guidance];</description>
             </statement>
             <statement>
                 <number>IR-8c.</number>
-                <description>Reviews the incident response plan [Assignment: organization-defined frequency];</description>
+                <description>Reviews the incident response plan [FedRAMP Assignment: at least annually];</description>
             </statement>
             <statement>
                 <number>IR-8d.</number>
@@ -7403,7 +7403,7 @@ Organizations can satisfy the identification and authentication requirements in 
             </statement>
             <statement>
                 <number>IR-8e.</number>
-                <description>Communicates incident response plan changes to [Assignment: organization-defined incident response personnel (identified by name and/or by role) and organizational elements]; and</description>
+                <description>Communicates incident response plan changes to [FedRAMP Assignment: see additional FedRAMP Requirements and Guidance]; and</description>
             </statement>
             <statement>
                 <number>IR-8f.</number>
