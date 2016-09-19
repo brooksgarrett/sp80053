@@ -8639,11 +8639,11 @@ Physical and technical safeguards for media are commensurate with the security c
                 <description>Reviews and updates the current:</description>
                 <statement>
                     <number>PE-1b.1.</number>
-                    <description>Physical and environmental protection  policy [Assignment: organization-defined frequency]; and</description>
+                    <description>Physical and environmental protection  policy [FedRAMP Assignment: at least every three (3) years]; and</description>
                 </statement>
                 <statement>
                     <number>PE-1b.2.</number>
-                    <description>Physical and environmental protection procedures [Assignment: organization-defined frequency].</description>
+                    <description>Physical and environmental protection procedures [FedRAMP Assignment: at least annually].</description>
                 </statement>
             </statement>
         </statement>
@@ -8680,7 +8680,7 @@ Physical and technical safeguards for media are commensurate with the security c
             </statement>
             <statement>
                 <number>PE-2c.</number>
-                <description>Reviews the access list detailing authorized facility access by individuals [Assignment: organization-defined frequency]; and</description>
+                <description>Reviews the access list detailing authorized facility access by individuals [FedRAMP Assignment: at least annually]; and</description>
             </statement>
             <statement>
                 <number>PE-2d.</number>
@@ -8752,7 +8752,7 @@ Physical and technical safeguards for media are commensurate with the security c
                 </statement>
                 <statement>
                     <number>PE-3a.2.</number>
-                    <description>Controlling ingress/egress to the facility using [Selection (one or more): [Assignment: organization-defined physical access control systems/devices]; guards];</description>
+                    <description>Controlling ingress/egress to the facility using [FedRAMP Assignment: CSP defined physical access control systems/devices AND guards];</description>
                 </statement>
             </statement>
             <statement>
@@ -8765,7 +8765,7 @@ Physical and technical safeguards for media are commensurate with the security c
             </statement>
             <statement>
                 <number>PE-3d.</number>
-                <description>Escorts visitors and monitors visitor activity [Assignment: organization-defined circumstances requiring visitor escorts and monitoring];</description>
+                <description>Escorts visitors and monitors visitor activity [FedRAMP Assignment: in all circumstances within restricted access area where the information system resides];</description>
             </statement>
             <statement>
                 <number>PE-3e.</number>
@@ -8773,11 +8773,11 @@ Physical and technical safeguards for media are commensurate with the security c
             </statement>
             <statement>
                 <number>PE-3f.</number>
-                <description>Inventories [Assignment: organization-defined physical access devices] every [Assignment: organization-defined frequency]; and</description>
+                <description>Inventories [Assignment: organization-defined physical access devices] every [FedRAMP Assignment: at least annually]; and</description>
             </statement>
             <statement>
                 <number>PE-3g.</number>
-                <description>Changes combinations and keys [Assignment: organization-defined frequency] and/or when keys are lost, combinations are compromised, or individuals are transferred or terminated.</description>
+                <description>Changes combinations and keys [FedRAMP Assignment: at least annually] and/or when keys are lost, combinations are compromised, or individuals are transferred or terminated.</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -9002,7 +9002,7 @@ Physical and technical safeguards for media are commensurate with the security c
             </statement>
             <statement>
                 <number>PE-6b.</number>
-                <description>Reviews physical access logs [Assignment: organization-defined frequency] and upon occurrence of [Assignment: organization-defined events or potential indications of events]; and</description>
+                <description>Reviews physical access logs [FedRAMP Assignment: at least monthly] and upon occurrence of [Assignment: organization-defined events or potential indications of events]; and</description>
             </statement>
             <statement>
                 <number>PE-6c.</number>
@@ -9084,7 +9084,7 @@ Physical and technical safeguards for media are commensurate with the security c
             <description>The organization:</description>
             <statement>
                 <number>PE-8a.</number>
-                <description>Maintains visitor access records to the facility where the information system resides for [Assignment: organization-defined time period]; and</description>
+                <description>Maintains visitor access records to the facility where the information system resides for [FedRAMP Assignment: for a minimum of one (1) year]; and</description>
             </statement>
             <statement>
                 <number>PE-8b.</number>
@@ -9332,11 +9332,11 @@ Physical and technical safeguards for media are commensurate with the security c
             <description>The organization:</description>
             <statement>
                 <number>PE-14a.</number>
-                <description>Maintains temperature and humidity levels within the facility where the information system resides at [Assignment: organization-defined acceptable levels]; and</description>
+                <description>Maintains temperature and humidity levels within the facility where the information system resides at [FedRAMP Assignment: consistent with American Society of Heating, Refrigerating and Air-conditioning Engineers (ASHRAE) document entitled "Thermal Guidelines for Data Processing Environments]; and</description>
             </statement>
             <statement>
                 <number>PE-14b.</number>
-                <description>Monitors temperature and humidity levels [Assignment: organization-defined frequency].</description>
+                <description>Monitors temperature and humidity levels [FedRAMP Assignment: continuously].</description>
             </statement>
         </statement>
         <supplemental-guidance>
@@ -9398,7 +9398,7 @@ Physical and technical safeguards for media are commensurate with the security c
         <baseline-impact>MODERATE</baseline-impact>
         <baseline-impact>HIGH</baseline-impact>
         <statement>
-            <description>The organization authorizes, monitors, and controls [Assignment: organization-defined types of information system components] entering and exiting the facility and maintains records of those items.</description>
+            <description>The organization authorizes, monitors, and controls [FedRAMP Assignment: all information system components] entering and exiting the facility and maintains records of those items.</description>
         </statement>
         <supplemental-guidance>
             <description>Effectively enforcing authorizations for entry and exit of information system components may require restricting access to delivery areas and possibly isolating the areas from the information system and media libraries.</description>
